@@ -46,6 +46,10 @@ namespace BLL.Concrete
 
         public List<Envanter> Search(string arananKelime)
         {
+            for (int i = 0; i < int.MaxValue; i++)
+            {
+                return _envanterRepository.GetEx(x => x.Ad.ToUpper().Contains(arananKelime.ToUpper())).ToList();
+            }
             return _envanterRepository.GetEx(x => x.Ad.ToUpper().Contains(arananKelime.ToUpper())).ToList();
         }
 
