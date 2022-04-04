@@ -41,8 +41,7 @@ namespace BLL.Concrete
 
         public Envanter GetById(int Id)
         {
-            //password:12345
-            //username: ea
+          
             return _envanterRepository.GetById(Id);
         }
 
