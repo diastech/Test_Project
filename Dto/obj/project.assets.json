@@ -1,26 +1,63 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Build/17.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.Build.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Microsoft.Build.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.Build/17.1.0": {
+      "sha512": "GgSHR/GRzRBuGYxUKetYABpASX6IwmNRUe+Fyo/h/eE9z7aGOASytbQLGA+8SO6MAcrT5Ela4h3Yys+qLhc9GA==",
+      "type": "package",
+      "path": "microsoft.build/17.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuild-NuGet-Icon.png",
+        "lib/net472/Microsoft.Build.dll",
+        "lib/net472/Microsoft.Build.pdb",
+        "lib/net472/Microsoft.Build.xml",
+        "lib/net6.0/Microsoft.Build.dll",
+        "lib/net6.0/Microsoft.Build.pdb",
+        "lib/net6.0/Microsoft.Build.xml",
+        "microsoft.build.17.1.0.nupkg.sha512",
+        "microsoft.build.nuspec",
+        "notices/THIRDPARTYNOTICES.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Build >= 17.1.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\metaform\\.nuget\\packages\\": {}
+    "C:\\Users\\ccnamcaank\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dto\\Dto.csproj",
+      "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dto\\Dto.csproj",
       "projectName": "Dto",
-      "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dto\\Dto.csproj",
-      "packagesPath": "C:\\Users\\metaform\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dto\\obj\\",
+      "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dto\\Dto.csproj",
+      "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dto\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\metaform\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +65,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/EADias/PartsUnlimited1/_packaging/Partsunlimited1/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -45,6 +83,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Microsoft.Build": {
+            "target": "Package",
+            "version": "[17.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -60,8 +104,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Build 17.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Build",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

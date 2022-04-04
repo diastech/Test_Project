@@ -15,3 +15,13 @@ C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Dto\obj\Debug\netcore
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Dto\obj\Debug\netcoreapp3.1\Dto.csproj.CoreCompileInputs.cache
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Dto\obj\Debug\netcoreapp3.1\Dto.dll
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Dto\obj\Debug\netcoreapp3.1\Dto.pdb
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\bin\Debug\netcoreapp3.1\Dto.deps.json
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\bin\Debug\netcoreapp3.1\Dto.dll
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\bin\Debug\netcoreapp3.1\Dto.pdb
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.csproj.AssemblyReference.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.AssemblyInfoInputs.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.AssemblyInfo.cs
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.csproj.CoreCompileInputs.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.dll
+C:\Users\ccnamcaank\Desktop\DiasAPI\Dto\obj\Debug\netcoreapp3.1\Dto.pdb

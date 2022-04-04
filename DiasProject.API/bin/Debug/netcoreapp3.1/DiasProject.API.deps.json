@@ -33,6 +33,7 @@
         "dependencies": {
           "BLL": "1.0.0",
           "Dto": "1.0.0",
+          "Microsoft.Build": "17.1.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.0",
           "NSwag.AspNetCore": "13.4.2",
           "Serilog.Extensions.Logging.File": "2.0.0",
@@ -513,6 +514,17 @@
         },
         "compile": {
           "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
+        }
+      },
+      "Microsoft.Build/17.1.0": {
+        "runtime": {
+          "lib/net472/Microsoft.Build.dll": {
+            "assemblyVersion": "15.1.0.0",
+            "fileVersion": "17.1.0.7609"
+          }
+        },
+        "compile": {
+          "lib/net472/Microsoft.Build.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
@@ -1996,7 +2008,8 @@
         "dependencies": {
           "Core": "1.0.0",
           "Dal": "1.0.0",
-          "Data": "1.0.0"
+          "Data": "1.0.0",
+          "Microsoft.Build": "17.1.0"
         },
         "runtime": {
           "BLL.dll": {}
@@ -2008,6 +2021,7 @@
       "Core/1.0.0": {
         "dependencies": {
           "Data": "1.0.0",
+          "Microsoft.Build": "17.1.0",
           "Microsoft.IdentityModel.Tokens": "6.12.0",
           "System.IdentityModel.Tokens.Jwt": "6.12.0"
         },
@@ -2020,7 +2034,8 @@
       },
       "Dal/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0"
+          "Data": "1.0.0",
+          "Microsoft.Build": "17.1.0"
         },
         "runtime": {
           "Dal.dll": {}
@@ -2031,6 +2046,7 @@
       },
       "Data/1.0.0": {
         "dependencies": {
+          "Microsoft.Build": "17.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0"
         },
         "runtime": {
@@ -2041,6 +2057,9 @@
         }
       },
       "Dto/1.0.0": {
+        "dependencies": {
+          "Microsoft.Build": "17.1.0"
+        },
         "runtime": {
           "Dto.dll": {}
         },
@@ -3873,6 +3892,13 @@
       "sha512": "sha512-J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
       "path": "microsoft.bcl.hashcode/1.1.0",
       "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Build/17.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GgSHR/GRzRBuGYxUKetYABpASX6IwmNRUe+Fyo/h/eE9z7aGOASytbQLGA+8SO6MAcrT5Ela4h3Yys+qLhc9GA==",
+      "path": "microsoft.build/17.1.0",
+      "hashPath": "microsoft.build.17.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",

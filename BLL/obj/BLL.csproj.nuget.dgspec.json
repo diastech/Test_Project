@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\BLL\\BLL.csproj": {}
+    "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\BLL\\BLL.csproj": {
+    "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\metaform\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\metaform\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EADias/PartsUnlimited1/_packaging/Partsunlimited1/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\Core.csproj"
+              "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\Core.csproj"
               },
-              "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\Dal.csproj": {
-                "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\Dal.csproj"
+              "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\Dal.csproj"
               },
-              "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj"
+              "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj"
               }
             }
           }
@@ -49,6 +54,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,21 +75,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\Core.csproj": {
+    "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\metaform\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Core\\obj\\",
+        "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\metaform\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,14 +101,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EADias/PartsUnlimited1/_packaging/Partsunlimited1/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj"
+              "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj"
               }
             }
           }
@@ -108,6 +124,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.12.0, )"
@@ -132,21 +152,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\Dal.csproj": {
+    "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\metaform\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Dal\\obj\\",
+        "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\Dal.csproj",
+        "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Dal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\metaform\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,14 +178,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EADias/PartsUnlimited1/_packaging/Partsunlimited1/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj"
+              "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj"
               }
             }
           }
@@ -175,6 +200,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,21 +221,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj": {
+    "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\metaform\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\metaform\\Desktop\\DiasYeni\\DiasAPI\\DiasProject.API\\Data\\obj\\",
+        "projectPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\ccnamcaank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ccnamcaank\\Desktop\\DiasAPI\\Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\metaform\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ccnamcaank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,7 +247,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/EADias/PartsUnlimited1/_packaging/Partsunlimited1/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -230,6 +266,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -262,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,3 +22,16 @@ C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Data\obj\Debug\netcor
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\metaform\Desktop\DiasYeni\DiasAPI\DiasProject.API\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\ccnamcaank\Desktop\DiasAPI\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
