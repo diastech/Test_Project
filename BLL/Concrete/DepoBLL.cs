@@ -33,6 +33,8 @@ namespace BLL.Concrete
             //return _depoRepository.GetAll().ToList();
             //return _depoRepository.GetEx(x => x.SilindiMi == false).ToList();
             return _depoRepository.IncludeMany(x => x.Envanter).Where(x=>x.SilindiMi==false).ToList();
+          
+
         }
 
         public Depo GetById(int Id)

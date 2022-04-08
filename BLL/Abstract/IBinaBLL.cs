@@ -11,6 +11,10 @@ namespace BLL.Abstract
         Bina GetById(int Id);
         List<Bina> Search(string arananKelime);
         //List<Bina> GetByCategoryId(int Id);
+        /// <summary>
+        /// Bu kodun amacı
+        /// </summary>
+        /// <param name="entity" Dıaşarıdan gelen entity değeri></param>
         void Add(Bina entity);
         void Update(Bina entity);
         void Delete(Bina entity);
